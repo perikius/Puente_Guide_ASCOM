@@ -22,7 +22,7 @@ This program acts as a communication bridge to allow Guide software to send and 
 <img width="661" height="219" alt="7-Esquema" src="https://github.com/user-attachments/assets/cf66faff-2d99-48e5-9523-6ecf26277828" />
 General scheme using example virtual ports COM4 == COM5 
 
-1. Serial Port Emulation :
+#### 1. Serial Port Emulation :
 
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.

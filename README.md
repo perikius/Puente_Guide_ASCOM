@@ -23,7 +23,9 @@ This program acts as a communication bridge to allow Guide software to send and 
 General scheme using example virtual ports COM4 == COM5 
 
 #### 1. Serial Port Emulation :
-
+It is necessary to create two linked virtual ports. Guide will connect to one, and "Puente_Guide_ASCOM" will connect to the other. I have used 'com0com' for this link. You can download version 3.0.0.0 here: :
+https://sourceforge.net/projects/com0com/files/com0com/3.0.0.0/
+<img width="855" height="225" alt="1-com0com" src="https://github.com/user-attachments/assets/9a8a3447-ee64-42c2-9f63-3b4302a2ac26" />
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.
 

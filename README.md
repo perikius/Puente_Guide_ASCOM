@@ -20,6 +20,10 @@ If you don't code and just want your Guide 9.1 to move the telescope again with 
 This program acts as a communication bridge to allow Guide software to send and receive commands using the ASCOM 7.1 Device Hub. It connects both to the Device Hub COM object and to a virtual serial port linked to Guide's port. It formats LX200 commands to ensure seamless communication.
 
 <img width="661" height="219" alt="7-Esquema" src="https://github.com/user-attachments/assets/cf66faff-2d99-48e5-9523-6ecf26277828" />
+General scheme using example virtual ports COM4 == COM5 
+
+1. Serial Port Emulation :
+
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.
 

@@ -12,7 +12,7 @@ This is a personal project intended to reconnect my telescope with the veteran a
 If you don't code and just want your Guide 9.1 to move the telescope again with modern ASCOM versions, this section is for you.
 
 ### How to get started:
-1. **Download:** Go to the **[Releases]** section on the right side of this page and download the `.zip` file containing the executable.
+1. **Download:** Go to the **[Releases]** section on the right side of this page and download the `.zip` file containing the executable and Manual_Setup.
 2. **Requirement:** Install **com0com** to create a pair of linked virtual ports (e.g., COM10 <-> COM11).
 3. **Step-by-step Guide:** Open the `Manual_Setup_EN.pdf` file included in this repository. It contains screenshots to configure Guide and the bridge.
 

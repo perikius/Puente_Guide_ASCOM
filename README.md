@@ -62,6 +62,18 @@ Note: COM ports higher than COM8 did not work for me in Guide 9.1.
 The exchanged commands will appear in the “Puente_Guide_ASCOM” terminal window. 
 <img width="474" height="486" alt="6-Puente-Guide-comunicacion" src="https://github.com/user-attachments/assets/f5fb555f-953c-49b2-ab55-07d2f2db5818" />
 
+The program manages synchronization and coordinate commands: :Sr..#, :Sd...#, :CM#, :MS#, :GD#, :GR#. 
+
+Note on speeds: Although the bridge recognizes movement and guide rate commands (:RG#, :RC#,...  :Mn#, :Ms#,... etc.), it is recommended to use the arrow keys and speed controls from other software or the ASCOM Device Hub for better precision. 
+
+
+* Troubleshooting: If ‘com0com’ or the executable fails to register ports, try "Run as administrator". 
+
+5. How to close correctly (IMPORTANT): 
+
+To prevent ports from becoming blocked or "hanging," do not close the window using the "X". Press Ctrl + C inside the “Puente_Guide_ASCOM” terminal window to finish the process safely.
+
+It is best to close “Puente_Guide_ASCOM” before other programs. 
 
 
 

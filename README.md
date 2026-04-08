@@ -37,6 +37,10 @@ Press Apply. Once the ports are created, close ‘com0com’; you won't need to 
 3. Verify in the Device Manager that the ports are active.
 <img width="349" height="110" alt="3-Dispositivos" src="https://github.com/user-attachments/assets/93624385-b744-4b84-a5df-105ddf8669ae" />
 
+4. The final scheme will look like this:
+<img width="527" height="76" alt="8-EsquemaR" src="https://github.com/user-attachments/assets/efca8c42-8358-41bc-a24a-ddca44c41e8d" />
+
+
 
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.

@@ -77,7 +77,7 @@ It is best to close “Puente_Guide_ASCOM” before other programs.
 
 
 
-> **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.
+> **Note:** This program is provided "as is". I cannot offer technical support or updates.
 
 ## 💻 2. Developer Information (Technical Overview)
 This project acts as a *middleware* between the legacy serial protocol of Guide 9.1 and the ASCOM 7.1 COM interface.

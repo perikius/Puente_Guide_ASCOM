@@ -132,6 +132,15 @@ Pulsa Apply. Creados los puertos cierra ‘como0com’, no necesitarás volver a
 3. Verifica en el Administrador de dispositivos que los puertos están activos.
 <img width="349" height="110" alt="3-Dispositivos" src="https://github.com/user-attachments/assets/01a4bcb6-5bbf-450d-9795-70940aa76cb6" />
 
+4. Ahora el esquema quedaría así
+<img width="527" height="76" alt="8-EsquemaR" src="https://github.com/user-attachments/assets/1ed644dc-d5ce-450b-a989-e861c4947d0f" />
+
+#### 2. Instrucciones de uso
+
+1. ASCOM: Conecta el telescopio al Device Hub como lo haces habitualmente.
+
+2. Abre “Puente_Guide_ASCOM”. Aparecerá la lista de los puertos detectados; selecciona el que usarás para recibir los datos del puerto que enlaza con el que usa Guide, en el ejemplo el COM5.
+<img width="468" height="186" alt="4-Puente_Guide" src="https://github.com/user-attachments/assets/b1df1723-20ab-4cf7-b889-628612d8501b" />
 
 > **Nota:** Este programa se entrega "tal cual" (*as is*). No puedo ofrecer soporte técnico ni actualizaciones.
 

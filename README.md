@@ -141,6 +141,7 @@ Pulsa Apply. Creados los puertos cierra ‘como0com’, no necesitarás volver a
 
 2. Abre “Puente_Guide_ASCOM”. Aparecerá la lista de los puertos detectados; selecciona el que usarás para recibir los datos del puerto que enlaza con el que usa Guide, en el ejemplo el COM5.
 <img width="468" height="186" alt="4-Puente_Guide" src="https://github.com/user-attachments/assets/b1df1723-20ab-4cf7-b889-628612d8501b" />
+
 Ejemplo: si el COM5 es el cuarto de la lista, introducimos el número ’4’
 
 <img width="469" height="232" alt="6-Puente-Guide-espera" src="https://github.com/user-attachments/assets/bcb2a3c0-ca32-431c-a690-7e2251ebe7ee" />

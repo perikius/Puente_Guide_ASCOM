@@ -122,6 +122,7 @@ Este sería el esquema general usando los puertos virtuales de ejemplo COM4==COM
 Es necesario crear 2 puertos virtuales y vinculados. Guide se conectará a uno de ellos y “Puente_Guide_ASCOM” se conectará al otro.  Para realizar este enlace he usado el programa ‘com0com’. Hay que descargar la versión 3.0.0.0 de aquí:
 https://sourceforge.net/projects/com0com/files/com0com/3.0.0.0/
 <img width="855" height="225" alt="1-com0com" src="https://github.com/user-attachments/assets/2973bc9a-d4e4-47a6-a198-035b64c0193f" />
+
 1. Crea un nuevo par con Add Pair, cambia los nombres con puertos que tengas libres (ej. COM4 – COM5). Consulta el Administrador de dispositivos de Windows para asegurarte que no están en uso.
 
 2. Activa opciones: ‘use Ports class’, ‘emulate baud rate’ y ‘enable buffer overrun’ en ambos.

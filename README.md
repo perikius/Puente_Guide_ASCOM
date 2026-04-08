@@ -16,7 +16,7 @@ If you don't code and just want your Guide 9.1 to move the telescope again with 
 2. **Requirement:** Install **com0com** to create a pair of linked virtual ports (e.g., COM10 <-> COM11).
 3. **Step-by-step Guide:** Open the `Manual_Setup_EN.pdf` file included in this repository. It contains screenshots to configure Guide and the bridge.
 
-Instructions
+### Instructions
 
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.

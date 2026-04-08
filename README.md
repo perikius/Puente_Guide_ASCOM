@@ -51,6 +51,7 @@ Press Apply. Once the ports are created, close ‘com0com’; you won't need to 
 Example: If COM5 is the fourth in the list, type ’4’.
 
 <img width="469" height="232" alt="6-Puente-Guide-espera" src="https://github.com/user-attachments/assets/f09fd624-9044-4af7-8292-e50da9fc5c38" />
+
 Once the port is selected, “Puente_Guide_ASCOM” connects to the Device Hub and waits for commands from Guide 9.1.
 
 3. Configure Guide: Go to Settings -> Telescope Control, select the linked port (in the example, COM4), and choose the LX-200 protocol.

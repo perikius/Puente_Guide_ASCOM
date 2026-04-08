@@ -158,6 +158,18 @@ Los comandos que se intercambien irán apareciendo en la ventana del programa Pu
 
 <img width="474" height="486" alt="6-Puente-Guide-comunicacion" src="https://github.com/user-attachments/assets/c1aec2f7-254a-4ea0-b725-ca71bf1dc7b5" />
 
+El programa gestiona los comandos de sincronización y coordenadas:
+ :Sr..#, :Sd...#, :CM#, :MS#, :GD#, :GR#.
+
+Nota sobre velocidades: Aunque el puente reconoce los comandos de movimiento y tasa de guía (:RG#, :RC#..., :Mn#, :Ms#... etc.), se recomienda usar las flechas y controles de velocidad desde otro software o los de Device Hub de ASCOM para mayor precisión.
+
+* Si notas que “com0com” o el ejecutable fallan al registrar puertos, prueba "Ejecutar como administrador"
+
+5. Cómo cerrar correctamente (IMPORTANTE)
+
+Para evitar que los puertos queden bloqueados o "colgados", no cierres la ventana del programa  con la X. Presiona Ctrl + C dentro de la ventana de la terminal de “Puente_Guide_ASCOM” para finalizar el proceso de forma segura.
+
+Es conveniente cerrar primero “Puente_Guide_ASCOM” antes que el resto de programas.
 
 
 

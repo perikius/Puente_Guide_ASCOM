@@ -26,6 +26,10 @@ General scheme using example virtual ports COM4 == COM5
 It is necessary to create two linked virtual ports. Guide will connect to one, and "Puente_Guide_ASCOM" will connect to the other. I have used 'com0com' for this link. You can download version 3.0.0.0 here: :
 https://sourceforge.net/projects/com0com/files/com0com/3.0.0.0/
 <img width="855" height="225" alt="1-com0com" src="https://github.com/user-attachments/assets/9a8a3447-ee64-42c2-9f63-3b4302a2ac26" />
+1. Create a new pair with "Add Pair" and rename them using available ports (e.g., COM4 – COM5). Check the Windows Device Manager to ensure they are not in use. 
+
+2. Enable these options: ‘use Ports class’, ‘emulate baud rate’, and ‘enable buffer overrun’ on both ports.
+
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.
 

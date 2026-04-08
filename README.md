@@ -113,6 +113,25 @@ Si no programas y solo quieres que tu Guide 9.1 vuelva a mover el telescopio con
 2. **Requisito:** Instala **com0com** para crear un par de puertos virtuales enlazados (ej. COM10 <-> COM11).
 3. **Guía paso a paso:** Abre el archivo `Manual_Configuracion_ES.pdf` incluido en este repositorio.
 
+### Manual_Instalación
+El programa hace un puente de comunicación para permitir que el software Guide envíe y reciba los comandos con Device Hub de ASCOM 7.1. Se conecta tanto al objeto COM del Device Hub como a un puerto serie virtual vinculado al puerto de Guide. Para ello formatea los comandos LX200 que se envían para realizar la comunicación.
+<img width="661" height="219" alt="7-Esquema" src="https://github.com/user-attachments/assets/525c1322-56ef-48c2-8c0b-b3d652e90fcd" />
+Este sería el esquema general usando los puertos virtuales de ejemplo COM4==COM5
+
+#### 1. Emulación de puertos serie:
+Es necesario crear 2 puertos virtuales y vinculados. Guide se conectará a uno de ellos y “Puente_Guide_ASCOM” se conectará al otro.  Para realizar este enlace he usado el programa ‘com0com’. Hay que descargar la versión 3.0.0.0 de aquí:
+https://sourceforge.net/projects/com0com/files/com0com/3.0.0.0/
+<img width="855" height="225" alt="1-com0com" src="https://github.com/user-attachments/assets/2973bc9a-d4e4-47a6-a198-035b64c0193f" />
+1. Crea un nuevo par con Add Pair, cambia los nombres con puertos que tengas libres (ej. COM4 – COM5). Consulta el Administrador de dispositivos de Windows para asegurarte que no están en uso.
+
+2. Activa opciones: ‘use Ports class’, ‘emulate baud rate’ y ‘enable buffer overrun’ en ambos.
+<img width="443" height="391" alt="2-com0com" src="https://github.com/user-attachments/assets/26517aba-58cc-469d-a0f2-37a1dc538553" />
+Pulsa Apply. Creados los puertos cierra ‘como0com’, no necesitarás volver a crearlos.
+
+3. Verifica en el Administrador de dispositivos que los puertos están activos.
+<img width="349" height="110" alt="3-Dispositivos" src="https://github.com/user-attachments/assets/01a4bcb6-5bbf-450d-9795-70940aa76cb6" />
+
+
 > **Nota:** Este programa se entrega "tal cual" (*as is*). No puedo ofrecer soporte técnico ni actualizaciones.
 
 ## 💻 2. Información para Desarrolladores (Technical Overview)

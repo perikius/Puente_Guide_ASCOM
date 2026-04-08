@@ -35,8 +35,8 @@ https://sourceforge.net/projects/com0com/files/com0com/3.0.0.0/
 Press Apply. Once the ports are created, close ‘com0com’; you won't need to create them again. 
 
 3. Verify in the Device Manager that the ports are active.
+<img width="349" height="110" alt="3-Dispositivos" src="https://github.com/user-attachments/assets/93624385-b744-4b84-a5df-105ddf8669ae" />
 
-![3-Dispositivos](https://github.com/user-attachments/assets/1a903940-d211-4d84-bf33-8ce59e5bed30)
 
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.

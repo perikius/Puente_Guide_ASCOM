@@ -41,6 +41,12 @@ Press Apply. Once the ports are created, close ‘com0com’; you won't need to 
 <img width="527" height="76" alt="8-EsquemaR" src="https://github.com/user-attachments/assets/efca8c42-8358-41bc-a24a-ddca44c41e8d" />
 
 
+### 2. Instructions for Use: 
+
+1. ASCOM: Connect your telescope to the Device Hub as you usually do. 
+
+2. Open “Puente_Guide_ASCOM”: A list of detected ports will appear. Select the port that will receive data from the one linked to Guide (in the example, COM5).
+<img width="468" height="186" alt="4-Puente_Guide" src="https://github.com/user-attachments/assets/5cd71bb1-98a6-445b-88f3-b517e5f63f40" />
 
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.

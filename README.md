@@ -58,7 +58,9 @@ Once the port is selected, “Puente_Guide_ASCOM” connects to the Device Hub a
 Note: COM ports higher than COM8 did not work for me in Guide 9.1.
 <img width="218" height="308" alt="5-ControlTelescopio" src="https://github.com/user-attachments/assets/3205dbfa-2595-4690-ad74-ab60c30acdca" />
 
-4. Ready! You can now use Guide. 
+4. Ready! You can now use Guide.
+The exchanged commands will appear in the “Puente_Guide_ASCOM” terminal window. 
+<img width="474" height="486" alt="6-Puente-Guide-comunicacion" src="https://github.com/user-attachments/assets/f5fb555f-953c-49b2-ab55-07d2f2db5818" />
 
 
 

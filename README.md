@@ -12,12 +12,14 @@ This is a personal project intended to reconnect my telescope with the veteran a
 If you don't code and just want your Guide 9.1 to move the telescope again with modern ASCOM versions, this section is for you.
 
 ### How to get started:
-1. **Download:** Go to the **[Releases]** section on the right side of this page and download the `.zip` file containing the executable and Manual_Setup.
+1. **Download:** Go to the **[Releases]** section on the right side of this page and download the `.zip` file containing the executable and Manual_Setup.pdf.
 2. **Requirement:** Install **com0com** to create a pair of linked virtual ports (e.g., COM10 <-> COM11).
 3. **Step-by-step Guide:** Open the `Manual_Setup_EN.pdf` file included in this repository. It contains screenshots to configure Guide and the bridge.
 
-### Instructions
+### Manual_Setup
+This program acts as a communication bridge to allow Guide software to send and receive commands using the ASCOM 7.1 Device Hub. It connects both to the Device Hub COM object and to a virtual serial port linked to Guide's port. It formats LX200 commands to ensure seamless communication.
 
+<img width="661" height="219" alt="7-Esquema" src="https://github.com/user-attachments/assets/cf66faff-2d99-48e5-9523-6ecf26277828" />
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.
 

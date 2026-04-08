@@ -47,6 +47,7 @@ Press Apply. Once the ports are created, close ‘com0com’; you won't need to 
 
 2. Open “Puente_Guide_ASCOM”: A list of detected ports will appear. Select the port that will receive data from the one linked to Guide (in the example, COM5).
 <img width="468" height="186" alt="4-Puente_Guide" src="https://github.com/user-attachments/assets/5cd71bb1-98a6-445b-88f3-b517e5f63f40" />
+
 Example: If COM5 is the fourth in the list, type ’4’.
 
 <img width="469" height="232" alt="6-Puente-Guide-espera" src="https://github.com/user-attachments/assets/f09fd624-9044-4af7-8292-e50da9fc5c38" />

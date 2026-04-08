@@ -30,6 +30,8 @@ https://sourceforge.net/projects/com0com/files/com0com/3.0.0.0/
 
 2. Enable these options: ‘use Ports class’, ‘emulate baud rate’, and ‘enable buffer overrun’ on both ports.
 
+<img width="443" height="391" alt="2-com0com" src="https://github.com/user-attachments/assets/9dd839bc-8344-48c3-85a1-d499e977ff60" />
+
 
 > **Note:** This program is provided "as is". I cannot offer technical support or updates, but I'm sharing it because it works for me.
 

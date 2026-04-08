@@ -145,7 +145,19 @@ Pulsa Apply. Creados los puertos cierra ‘como0com’, no necesitarás volver a
 Ejemplo: si el COM5 es el cuarto de la lista, introducimos el número ’4’
 
 <img width="469" height="232" alt="6-Puente-Guide-espera" src="https://github.com/user-attachments/assets/bcb2a3c0-ca32-431c-a690-7e2251ebe7ee" />
+
 Seleccionado el puerto, “Puente_Guide_ASCOM” se conecta al DeviceHub y queda a la espera de los comandos de Guide 9.1
+
+3. Configurar Guide: En Ajustes -> Control Telescopio, selecciona el puerto vinculado (en el ejemplo, COM4) y utiliza el protocolo LX200.
+Nota: Los puertos superiores a COM8 no me han funcionado en Guide 9.1.
+<img width="218" height="308" alt="5-ControlTelescopio" src="https://github.com/user-attachments/assets/229985b2-ab12-4575-867e-391db5f83429" />
+
+4. ¡Listo! Ya puedes usar Guide.
+
+Los comandos que se intercambien irán apareciendo en la ventana del programa Puente_Guide_ASCOM.
+
+<img width="474" height="486" alt="6-Puente-Guide-comunicacion" src="https://github.com/user-attachments/assets/c1aec2f7-254a-4ea0-b725-ca71bf1dc7b5" />
+
 
 
 
